@@ -8,10 +8,10 @@ load_dotenv()
 # function to handle the /start command
 def show_items(update, context):
     items = todoist_handler.list_items()
-    print(items)
+    item_string=''
     for item in items:
-        update.message.reply_text(item)
-
+        item_string += f'{item}\n'
+    update.message.reply_text(item_string)
 # function to handle the /help command
 def help(update, context):
     update.message.reply_text('Add items to the list by sending one item per line')
