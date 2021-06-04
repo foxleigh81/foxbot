@@ -32,6 +32,10 @@ You should have been given a username for your bot when you created it, add this
 To view the items in that list in your bot, you can send a `/list` command.
 
 ## Roadmap
-This is version 1 of my application, I also plan to add the ability to parse comma separated lists as well as one per line and also to complete items via the bot.
+This is version 1 of my application I have the following updates in mind:
+- Add Docker compatibility to make deployment and installation easier
+- Allow items to be added via comma separated list as well as one per line
+- Allow completions of items from the bots
+- Add tests
 
 
