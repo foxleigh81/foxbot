@@ -1,0 +1,3 @@
+dotenv
+todoist-python
+python-telegram-bot
